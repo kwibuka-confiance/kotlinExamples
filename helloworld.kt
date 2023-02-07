@@ -4,10 +4,15 @@ fun main() {
     // }
 
     // filter
-    val x = 1..10
-    val filteredNumber = x.filter { number -> number % 2 == 0 }
+    // val x = 1..10
+    // val filteredNumber = x.filter { number -> number % 2 == 0 }
 
-    println(filteredNumber)
+    // println(filteredNumber)
+
+    // distinct
+    var lists = listOf(12, 34, 65, 6, 6, 6)
+
+    println(lists.average())
 }
 
 fun multiplication(num1: Int, num2: Int): Int {
