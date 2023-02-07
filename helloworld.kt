@@ -1,8 +1,6 @@
 fun main() {
-    val fruits = arrayOf<String>("Grapes", "Guava", "Oranges", "Apples", null.toString())
-    for (item in fruits) {
-
-        println(item)
+    for (num in 1 until 10) {
+        println(num)
     }
 }
 
